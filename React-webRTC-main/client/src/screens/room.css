@@ -1,0 +1,81 @@
+.room{
+  background: -webkit-linear-gradient(16deg, #8ca5cd, #c6938e);
+  /* width: 500px; */
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin-top: 5px ;
+}
+
+.rooms{
+  font-size: 2.5rem; /* Adjust size as needed */
+  font-weight: 600; /* Slightly bolder */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333; /* Dark grey for better readability */
+  text-align: center; /* Center align text */
+  line-height: 1.4; /* Increase line height for better spacing */
+  margin: 20px; /* Add margin around the text */
+  padding: 10px; /* Add padding inside the element */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Add subtle shadow for depth */
+  /* background-color: rgba(255, 255, 255, 0.8); Semi-transparent background for contrast */
+  border-radius: 10px; /* Rounded corners for a softer look */
+}
+.message{
+  font-size: 1.5rem; 
+  font-weight: 600; 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #333; 
+  text-align: center; 
+  line-height: 1.4; 
+  margin: 20px; 
+  padding: 10px; 
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+  border-radius: 10px; 
+}
+
+.call {
+  background-color: #ccc; /* Light background for better contrast */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Space inside the button */
+  font-size: 1rem; /* Font size for readability */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 100px; /* Set width of the button */
+  max-width: 400px; /* Maximum width to ensure it doesn't get too wide */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for interactive effects */
+  clear: both;
+  float: center;
+  /* margin-left: 250px; */
+  margin-top: 20px;
+  margin-left: 7px;
+}
+
+.sendstream{
+  background-color: #ccc; /* Light background for better contrast */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Space inside the button */
+  font-size: 1rem; /* Font size for readability */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 130px; /* Set width of the button */
+  max-width: 400px; /* Maximum width to ensure it doesn't get too wide */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for interactive effects */
+  clear: both;
+  float: center;
+  /* margin-left: 250px; */
+  margin-top: 20px;
+}
+
+.stream{
+display: flex; /* Use Flexbox for layout */
+justify-content: space-between; /* Space out the texts */
+align-items: center; /* Center the texts vertically */
+padding: 10px; /* Space inside the container */
+border-radius: 5px; /* Rounded corners */
+background-color: transparent; /* Light background color */
+/* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Subtle shadow for depth */
+}
